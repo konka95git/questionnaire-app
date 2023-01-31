@@ -131,7 +131,7 @@ const Quiz = () => {
           )}
           <div className={activeQuestion !== 0 ? "flex-space" : "flex-right"}>
             {activeQuestion !== 0 && (
-              <button onClick={onClickPrevious}>PREVIOUS</button>
+              <button onClick={onClickPrevious}>BACK</button>
             )}
             <button
               onClick={onClickNext}
